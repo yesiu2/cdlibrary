@@ -14,4 +14,10 @@ public enum Genre {
     private Genre(String name) {
         this.name = name;
     }
+
+    public String toString() {
+        return name;
+    }
+
+
 }
